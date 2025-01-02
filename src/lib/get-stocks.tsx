@@ -1,5 +1,5 @@
 import type { StockInfo } from "@/types";
-import StockWithCounter from "@/components/StockWithCounter";
+import { StockWithCounter } from "@/components/StockWithCounter";
 
 const STOCKS = ["ARPL", "GLOG", "MDFT", "AMZO", "FBL", "TSLR"];
 
