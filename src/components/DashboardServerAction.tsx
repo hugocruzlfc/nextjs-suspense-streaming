@@ -5,7 +5,7 @@ import { StockInfo } from "@/types";
 import { getStocksAction } from "@/app/actions";
 import { StockDisplay } from "./StockDisplay";
 
-export function DashboardServerAction() {
+export default function DashboardServerAction() {
   const [stocks, setStocks] = useState<Promise<StockInfo>[]>([]);
 
   const callStocksActions = async () =>
